@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  h2 {
+    @apply text-2xl font-bold;
+  }
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  input,
+  button {
+    @apply border-2 border-grey-1 rounded min-h-10 p-1 outline-none;
+  }
+
+  button {
+    @apply shadow-[rgba(0,0,0,0.13)_2px_2px_2px_0px];
+  }
+
+  th {
+    @apply font-bold text-grey py-2 break-all;
+  }
+
+  td {
+    @apply text-grey py-2 break-all;
+  }
+
+  tr {
+    @apply border-b;
+  }
+}
